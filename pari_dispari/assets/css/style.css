@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    margin: auto;
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.placeResult{
+    width: 300px;
+    border: 5px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+.userData,
+.pcData{
+    width: 50%;
+    padding: 1rem;
+}
+span{
+    font-weight: bold;
+    color: red;
+}
